@@ -1,4 +1,4 @@
-## README: İş Sağlığı ve Güvenliği Ders Notları
+## İş Sağlığı ve Güvenliği Ders Notları
 
 ### İçindekiler
 
@@ -101,4 +101,103 @@ Fiziksel risk etmenleri iş yerlerinde çalışanların maruz kaldığı fizikse
 
 5. **Lockout/Tagout Prosedürleri Nedir ve Bakım Faaliyetlerinde Nasıl Uygulanır?**
    - **Cevap**: Enerji kaynaklarının kapatılması ve kilitlenmesi yoluyla ekipmanların güvenli hale getirilmesini sağlar.
+
+## Sorular
+
+
+### Fiziksel Risk Etmenleri
+
+#### 1. Aşağıdakilerden hangisi iş yerinde gürültüyü oluşturan etkenlerden biridir?
+   a) Sesin şiddeti  
+   b) Sesin yankılanması  
+   c) Sesin kaynağı  
+   d) Sesin rengi  
+
+#### 2. Sağlıklı bir insan kulağı, kaç minipascal ile kaç Pascal arasındaki sese dayanıklıdır?
+   a) 10 minipascal - 100 Pascal  
+   b) 20 minipascal - 200 Pascal  
+   c) 30 minipascal - 300 Pascal  
+   d) 40 minipascal - 400 Pascal  
+
+#### 3. Aşağıdaki değerlerden hangisi ağrı eşiği düzeyindeki gürültü seviyesini ifade eder?
+   a) 120 dB  
+   b) 130 dB  
+   c) 140 dB  
+   d) 150 dB  
+
+#### 4. Ağır ve tehlikeli işlerin yapılmadığı yerlerde gürültü şiddeti en fazla kaç dB olmalıdır?
+   a) 70 dB  
+   b) 80 dB  
+   c) 90 dB  
+   d) 100 dB  
+
+#### 5. Psikrometre hangi ölçümü yapar?
+   a) Hava akım hızı  
+   b) Nem  
+   c) Sıcaklık  
+   d) Aydınlatma  
+
+### EKED Sistemi ve İş Ekipmanları
+
+#### 1. EKED açılımı nedir?
+   a) Elektronik Kayıt ve Eğitim Dökümantasyonu  
+   b) Elektronik Kontrol ve Eğitim Dökümantasyonu  
+   c) Elektronik Kayıt ve Eğitim Denetimi  
+   d) Elektronik Kontrol ve Ekipman Denetimi  
+
+#### 2. EKED sisteminin amacı nedir?
+   a) İşçi performansını izlemek  
+   b) İş sağlığı ve güvenliği uygulamalarında iş ekipmanlarının etkin ve güvenli kullanılmasını sağlamak  
+   c) İş yerinde eğitim programları oluşturmak  
+   d) İş kazalarını raporlamak  
+
+#### 3. İş ekipmanlarının periyodik bakımı neden önemlidir?
+   a) Çalışanların performansını artırmak  
+   b) Ekipmanların güvenli ve verimli çalışmasını sağlamak  
+   c) Ekipmanları sigortalatmak  
+   d) Çalışanların motivasyonunu artırmak  
+
+#### 4. Aşağıdakilerden hangisi EKED sisteminin uygulama aşamalarından biri değildir?
+   a) Ekipmanların envanterinin çıkartılması  
+   b) Çalışanların işten çıkarılması  
+   c) Ekipmanların bakım ve denetim planlarının oluşturulması  
+   d) Çalışanların eğitim ihtiyaçlarının belirlenmesi  
+
+#### 5. EKED sistemi ile hangi süreçler elektronik ortamda kayıt altına alınır?
+   a) Ekipmanların satın alınması  
+   b) Bakım, denetim ve eğitim süreçleri  
+   c) Çalışanların izinleri  
+   d) İş yeri yemek menüleri  
+
+### Bakım Onarım Faaliyetlerinde İSG
+
+#### 1. Bakım ve onarım faaliyetlerinde aşağıdaki risklerden hangisi yoktur?
+   a) Elektrik çarpması  
+   b) Mekanik tehlikeler  
+   c) Kimyasal maddelerle temas  
+   d) Gürültüye maruz kalma  
+
+#### 2. Bakım ve onarım faaliyetlerinde kişisel koruyucu donanımlar (KKD) neden önemlidir?
+   a) Çalışanların verimliliğini artırmak  
+   b) Çalışanların iş kazalarından korunmasını sağlamak  
+   c) Ekipmanların ömrünü uzatmak  
+   d) Çalışanların daha hızlı çalışmasını sağlamak  
+
+#### 3. Risk değerlendirmesi bakım ve onarım faaliyetlerinde ne zaman yapılmalıdır?
+   a) Faaliyetlerin başlamasından sonra  
+   b) Faaliyetler sırasında  
+   c) Faaliyetlerden önce  
+   d) Faaliyetlerin tamamlanmasından sonra  
+
+#### 4. İş izin sistemi bakım faaliyetlerinde nasıl kullanılır?
+   a) İşlerin rastgele yapılmasını sağlar  
+   b) İşlerin belirli bir izin ve kontrol sistemi çerçevesinde yapılmasını sağlar  
+   c) İşlerin daha hızlı yapılmasını sağlar  
+   d) İşlerin daha az maliyetle yapılmasını sağlar  
+
+#### 5. Lockout/Tagout prosedürleri neyi sağlar?
+   a) Ekipmanların yanlışlıkla çalıştırılmasını önler  
+   b) Ekipmanların enerji tüketimini azaltır  
+   c) Çalışanların daha verimli çalışmasını sağlar  
+   d) Ekipmanların bakım maliyetlerini düşürür  
 
