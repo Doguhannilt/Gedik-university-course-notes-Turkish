@@ -201,3 +201,44 @@ Fiziksel risk etmenleri iş yerlerinde çalışanların maruz kaldığı fizikse
    c) Çalışanların daha verimli çalışmasını sağlar  
    d) Ekipmanların bakım maliyetlerini düşürür  
 
+
+### Fiziksel Risk Etmenleri
+
+1. Gürültüyü oluşturan etkenlerden biri, sesin şiddeti anlamına gelir. (Doğru/Yanlış)
+2. Sağlıklı bir insan kulağı, minipascal ile Pascal arasındaki sese dayanıklıdır. (Doğru/Yanlış)
+3. Ağrı eşiği düzeyindeki gürültü seviyesi 120 dB'dir. (Doğru/Yanlış)
+4. Ağır ve tehlikeli işlerin yapılmadığı yerlerde gürültü şiddeti en fazla 70 dB'i geçmemelidir. (Doğru/Yanlış)
+5. Psikrometre, hava akım hızını ölçer. (Doğru/Yanlış)
+6. İnsanlar 1-1000 Hz arasındaki titreşimleri algılarlar. (Doğru/Yanlış)
+7. Normalde 4N/cm2 kadar basınç değişimi, rahatsızlık hissi dışında sağlık sorunu yaşatmaz. (Doğru/Yanlış)
+8. Elektrik çarpması riski, düşük gerilimde daha tehlikelidir. (Doğru/Yanlış)
+9. Kimyasal maddelerle çalışırken, uygun kişisel koruyucu donanımlar kullanılır. (Doğru/Yanlış)
+10. Gürültü zararlarının meslek hastalığı sayılabilmesi için gürültülü işte en az iki yıl çalışmış olunması gereklidir. (Doğru/Yanlış)
+
+### EKED Sistemi ve İş Ekipmanları
+
+1. EKED açılımı, Elektronik Kontrol ve Eğitim Dökümantasyonu'dur. (Doğru/Yanlış)
+2. EKED sisteminin amacı, iş yerinde eğitim programları oluşturmaktır. (Doğru/Yanlış)
+3. İş ekipmanlarının periyodik bakımı, ekipmanların güvenli ve verimli bir şekilde çalışmasını sağlar. (Doğru/Yanlış)
+4. Bir iş kazası sonrasında EKED sistemi kullanılarak, kazanın detayları kaydedilir ve alınması gereken önlemler belirlenir. (Doğru/Yanlış)
+5. EKED sistemi ile iş ekipmanlarının bakım ve denetim süreçleri manuel olarak takip edilir. (Doğru/Yanlış)
+6. İş ekipmanları periyodik bakımları yılda bir kez yapılmalıdır. (Doğru/Yanlış)
+7. Lockout/Tagout prosedürleri, ekipmanların yanlışlıkla çalıştırılmasını önler. (Doğru/Yanlış)
+8. İş ekipmanları periyodik kontrolünde radyasyon ölçümü yapılır. (Doğru/Yanlış)
+9. İş ekipmanlarından kaynaklanan bir riski azaltmanın bir yolu, ekipmanların periyodik bakımlarını yapmaktır. (Doğru/Yanlış)
+10. Çalışanların eğitim ihtiyaçları belirlenirken, yaş ve cinsiyet faktörleri dikkate alınmaz. (Doğru/Yanlış)
+
+### Bakım Onarım Faaliyetlerinde İSG
+
+1. Bakım ve onarım faaliyetlerinde karşılaşılabilecek riskler, çalışanların güvenliğini tehdit etmez. (Doğru/Yanlış)
+2. Kişisel koruyucu donanımların önemi, çalışanların iş kazalarından korunmasını sağlar. (Doğru/Yanlış)
+3. İş izin sistemi, bakım ve onarım faaliyetlerinin güvenli bir şekilde yapılmasını sağlayan bir kontrol mekanizmasıdır. (Doğru/Yanlış)
+4. İş ekipmanlarının bakımı ve onarımı sırasında dikkat edilmesi gerekenler arasında, ekipmanların enerjisinin kesilmesi ve kilitleme işlemleri yer alır. (Doğru/Yanlış)
+5. Bakım ve onarım faaliyetlerinde risk değerlendirmesi yapılmaz. (Doğru/Yanlış)
+6. İSG önlemleri, çalışanların güvenli bir şekilde çalışmasını sağlamak için alınan önlemlerdir. (Doğru/Yanlış)
+7. Bakım ve onarım faaliyetlerinde iş kazalarını önlemek için acil durum prosedürleri belirlenmez. (Doğru/Yanlış)
+8. Bakım ve onarım faaliyetlerinde işler planlı ve güvenli bir şekilde yapılmaz. (Doğru/Yanlış)
+9. Bakım ve onarım faaliyetleri sırasında, çalışanların eğitim ihtiyaçları belirlenmez. (Doğru/Yanlış)
+10. Hangi durumlarda bakım ve onarım faaliyetleri durdurulmalıdır, belirli bir izin ve kontrol sistemi çerçevesinde gerçekleştirilmelidir. (Doğru/Yanlış)
+
+
