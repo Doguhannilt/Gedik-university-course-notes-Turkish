@@ -397,3 +397,151 @@ Dolayısıyla, 36123 sayısının 'r-1' tümleyeni: 0111001011100101 (İkili sis
 
 5. **Sonuç:**
 sonuç 100110111 olur.
+
+## Coding and Codes
+
+Ezberle:
+
+| Onluk Rakam | BCD Kodu (4 bit) |
+|-------------|------------------|
+| 0           | 0000             |
+| 1           | 0001             |
+| 2           | 0010             |
+| 3           | 0011             |
+| 4           | 0100             |
+| 5           | 0101             |
+| 6           | 0110             |
+| 7           | 0111             |
+| 8           | 1000             |
+| 9           | 1001             |
+
+BCD (Binary Coded Decimal Code), onluk sistemdeki sayıları ikili sistemde temsil etmek için kullanılan bir kodlama yöntemidir. İkili kodlanmış onlu sayı kodu olarak da bilinir. Bu kodlama yöntemi, her ondalık basamağı dört bitlik ikili gruplar halinde temsil eder.
+
+Örneğin, (263)10 sayısını BCD kodu ile nasıl kodlayacağımızı inceleyelim:
+
+1. İlk olarak, sayının her bir basamağı için onluk sistemdeki değerlerini ikili sistemdeki karşılıklarıyla temsil ederiz.
+   - 2 → 0010
+   - 6 → 0110
+   - 3 → 0011
+
+   Her bir basamak için 4 bitlik ikili gruplar elde edilir.
+
+2. Bu grupları birleştirerek BCD kodlu sayıyı elde ederiz:
+   - 2 için 0010
+   - 6 için 0110
+   - 3 için 0011
+
+   Bu grupları bir araya getirirsek:
+   0010 0110 0011
+
+3. Sonuç olarak, (263)10 sayısı BCD koduyla şu şekilde kodlanmış olur:
+   (263)10 = (0010 0110 0011)BCD
+
+BCD kodu, özellikle dijital saatlerde, hesap makinelerinde ve diğer uygulamalarda ondalık sayıları doğrudan ikili sistemde temsil etmek için kullanılır. Her bir basamak için sabit bir uzunluk (4 bit) kullanıldığından, hesaplamalar ve işlemler sırasında veri tutarlılığı sağlanmış olur.
+
+### Gray Code
+
+(101110101)2 ikili sistemdeki sayıyı Gray koduna çevirelim.
+
+
+Gray koduna dönüştürmek için önce her bir bitin değerini sırasıyla alıp, ardışık olarak işlem yapacağız.
+
+Verilen ikili sayı: (101110101)₂
+
+Gray kodu oluşturmak için sırayla her bit ile bir öncekinin XOR (exclusive OR) işlemini yapacağız. İlk bit doğrudan alınır, sonraki bitler ise önceki bit ile XOR işlemi yaparak elde edilir.
+
+İşlem adımları şu şekilde olur:
+
+1. İlk bit doğrudan alınır: 1
+2. İlk bit ile ikinci bit arasında XOR işlemi yapılır: 1 XOR 0 = 1
+3. 2. bit ile 3. bit arasında XOR işlemi yapılır: 0 XOR 1 = 1
+4. 3. bit ile 4. bit arasında XOR işlemi yapılır: 1 XOR 1 = 0
+5. 4. bit ile 5. bit arasında XOR işlemi yapılır: 1 XOR 1 = 0
+6. 5. bit ile 6. bit arasında XOR işlemi yapılır: 0 XOR 0 = 0
+7. 6. bit ile 7. bit arasında XOR işlemi yapılır: 0 XOR 1 = 1
+8. 7. bit ile 8. bit arasında XOR işlemi yapılır: 1 XOR 0 = 1
+9. 8. bit ile 9. bit arasında XOR işlemi yapılır: 0 XOR 1 = 1
+
+Bu işlemler sonucunda elde edilen Gray kodu: (111100110)₂
+
+Yani, (101110101)₂ ikili sayısı Gray koduna çevrildiğinde (111100110)₂ olarak temsil edilir.
+
+## Çift Eşitlik Tek Eşitlik
+
+Çift eşitlik (even parity) ve tek eşitlik (odd parity) yöntemleri, veri iletiminde hata tespitini sağlamak için kullanılan basit hata kontrolü teknikleridir. Bu yöntemler genellikle tekil bit hatalarını tespit etmek amacıyla kullanılır.
+
+### Tek Eşitlik (Odd Parity) Yöntemi
+
+Tek eşitlik yönteminde, iletilen her veri bloğuna (örneğin, bir byte) ek bir bit eklenir. Bu eklenen bit, veri bloğundaki '1' bitlerinin sayısına bağlı olarak belirlenir. Toplam bit sayısının tek olması gerektiği için, eğer iletilen veri bloğunda '1' bitleri çift sayıdaysa, eklenen bit '1' (tek olmalıdır); eğer '1' bitleri tek sayıdaysa, eklenen bit '0' (çift olmalıdır).
+
+Örneğin, bir byte için tek eşitlik uygulandığında:
+
+- Veri bloğu: 10110010
+- '1' bitleri sayısı: 4 (10110010 içinde)
+- Tek eşitlik biti (parite biti) hesaplama: '1' (çünkü '1' bitleri sayısı çift)
+
+Bu şekilde, veri bloğu ve eklenen parite biti birlikte iletilir. Alıcı tarafında, gelen veri bloğu ile parite biti kontrol edilir. Eğer veri bloğu ve parite biti arasında uyumsuzluk varsa (örneğin, veri bloğundaki '1' bitleri sayısı değişmişse), hata olduğunu gösterir.
+
+### Çift Eşitlik (Even Parity) Yöntemi
+
+Çift eşitlik yöntemi, tek eşitlik yöntemiyle benzerdir, ancak eklenen parite biti, '1' bitlerinin sayısına göre belirlenirken, '0' bitleri sayısına göre belirlenir. Yani, toplam bit sayısının çift olması gerektiği için, eğer iletilen veri bloğunda '1' bitleri tek sayıdaysa, eklenen bit '1' (tek olmalıdır); eğer '1' bitleri çift sayıdaysa, eklenen bit '0' (çift olmalıdır).
+
+Örneğin, bir byte için çift eşitlik uygulandığında:
+
+- Veri bloğu: 10110010
+- '1' bitleri sayısı: 4 (10110010 içinde)
+- Çift eşitlik biti (parite biti) hesaplama: '0' (çünkü '1' bitleri sayısı çift)
+
+Bu şekilde, veri bloğu ve eklenen parite biti birlikte iletilir. Alıcı tarafında, gelen veri bloğu ile parite biti kontrol edilir. Eğer veri bloğu ve parite biti arasında uyumsuzluk varsa (örneğin, veri bloğundaki '1' bitleri sayısı değişmişse), hata olduğunu gösterir.
+
+Her iki yöntem de basit ve etkili bir şekilde tekil bit hatalarını tespit etmek için kullanılır, ancak daha karmaşık hata tespit teknikleri (örneğin, CRC - döngüsel düzeltme kodları) daha güçlü ve kapsamlı hata kontrolü sağlar.
+
+
+### Soru 1: Çift Eşitlik Yöntemi
+
+Verilen sayılar: (1011100) ve (0111000)
+
+#### Adım 2: Çift Eşitlik Yöntemi ile Eşitlik Biti Eklemek
+
+**Veri Bloğu 1: (1011100)**
+
+- '1' bitleri sayısı: 4 (1011100 içinde)
+- Çift eşitlik biti (parite biti) hesaplama: '0' (çünkü '1' bitleri sayısı çift)
+
+Bu durumda, (1011100) sayısına çift eşitlik yöntemine göre eklenen eşitlik biti '0' olacaktır.
+
+**Sonuç: (10111000)**
+
+**Veri Bloğu 2: (0111000)**
+
+- '1' bitleri sayısı: 3 (0111000 içinde)
+- Çift eşitlik biti (parite biti) hesaplama: '1' (çünkü '1' bitleri sayısı tek)
+
+Bu durumda, (0111000) sayısına çift eşitlik yöntemine göre eklenen eşitlik biti '1' olacaktır.
+
+**Sonuç: (01110001)**
+
+### Soru 19: Tek Eşitlik Yöntemi
+
+Verilen sayılar: (1011100) ve (0111000)
+
+#### Adım 1: Tek Eşitlik Yöntemi ile Eşitlik Biti Eklemek
+
+**Veri Bloğu 1: (1011100)**
+
+- '1' bitleri sayısı: 4 (1011100 içinde)
+- Tek eşitlik biti (parite biti) hesaplama: '1' (çünkü '1' bitleri sayısı çift)
+
+Bu durumda, (1011100) sayısına tek eşitlik yöntemine göre eklenen eşitlik biti '1' olacaktır.
+
+**Sonuç: (10111001)**
+
+**Veri Bloğu 2: (0111000)**
+
+- '1' bitleri sayısı: 3 (0111000 içinde)
+- Tek eşitlik biti (parite biti) hesaplama: '0' (çünkü '1' bitleri sayısı tek)
+
+Bu durumda, (0111000) sayısına tek eşitlik yöntemine göre eklenen eşitlik biti '0' olacaktır.
+
+**Sonuç: (01110000)**
+
